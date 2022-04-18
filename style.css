@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
