@@ -8,10 +8,15 @@ body {
     flex-direction: column;
 }
 
+img {
+  max-width: 150px;
+  max-height: 450px;
+}
 
 .header {
   display: flex;
   padding: 16px;
+  justify-content: space-between;
 }
 
 .left-links {
@@ -22,9 +27,32 @@ body {
 
 .right-links {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
 }
+
+.imageContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.leftText {
+  display: flex;
+  flex-direction: column;
+}
+
+.blueBox {
+  display: flex;
+}
+
+.rightImage {
+  display: flex;
+  flex-grow: 3;
+  justify-content: flex-end;
+}
+
+
 
 .title {
   font-size: 36px;
@@ -33,33 +61,40 @@ body {
   justify-content: center;
   margin-bottom: 32px;
 }
-.AllPlants {
+.AllBox {
   display: flex;
   justify-content: center;
   gap: 52px;
 }
 
-.PlantOne {
+.BoxOne {
   width: 200px;
   text-align: center;
 }
 
-.PlantTwo {
+.BoxTwo {
   width: 200px;
   text-align: center;
 }
 
-.PlantThree {
+.BoxThree {
   width: 200px;
   text-align: center;
 }
 
-.PlantFour {
+.BoxFour {
   width: 200px;
   text-align: center;
 }
 
 .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial {
   display: flex;
   justify-content: center;
   align-items: center;
