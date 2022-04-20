@@ -5,19 +5,84 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 
 .header {
   display: flex;
-  flex-direction: row;
-
-  justify-content: flex-end;
   padding: 16px;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .right-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.AllPlants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.PlantOne {
+  width: 200px;
+  text-align: center;
+}
+
+.PlantTwo {
+  width: 200px;
+  text-align: center;
+}
+
+.PlantThree {
+  width: 200px;
+  text-align: center;
+}
+
+.PlantFour {
+  width: 200px;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.head {
+  font-weight: 900;
+}
+
+.action.text {
+  color: white;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
