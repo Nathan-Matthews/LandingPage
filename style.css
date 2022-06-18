@@ -55,6 +55,7 @@ a:visited { text-decoration: none; color:white; }
   background-color: #1f2937;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 64px;
 }
 
 .leftText {
@@ -130,6 +131,7 @@ a:visited { text-decoration: none; color:white; }
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #E5E7eb;
 }
 
 .testimonial {
