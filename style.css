@@ -34,7 +34,7 @@ border: 12px #3882f6;
 
 
 
-
+a:link { text-decoration: none;}
 a:visited { text-decoration: none; color:white; }
 
 .header {
@@ -60,13 +60,13 @@ color: #f9faf8;
   align-items: flex-end;
   font-size: 18px;
   color: #e5e7eb;
-  gap: 8px;
+  gap: 12px;
 }
 
 .imageContent {
 display: flex;
 flex-direction: row;
-justify-content: flex-start;
+justify-content: space-between;
 background-color: #1f2937;
 padding-left: 10%;
 padding-right: 10%;
@@ -81,7 +81,8 @@ font-size: 48px;
 font-weight: extra-bold;
 color: #f9faf8;
 background-color: #1f2937;
-padding-right: 200px;
+padding-right: 50px;
+max-width: 500px;
 }
 
 .leftText p {
@@ -109,9 +110,12 @@ background-color: #f9faf8;
 
 .rightImage {
 display: flex;
-flex-grow: 3;
 justify-content: center;
 align-items: center;
+width: 600px;
+height: 300px;
+color: #e5e7eb;
+background-color: gray;
 }
 
 
@@ -127,25 +131,50 @@ margin-bottom: 32px;
 .AllBox {
 display: flex;
 justify-content: center;
+align-items: center;
 gap: 52px;
 }
 
+.Box {
+width: 200px;
+height: 200px;
+margin: 10px;
+padding: 10px;
+background-color: #3882f6;
+}
+
 .BoxOne {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 width: 200px;
 text-align: center;
 }
 
 .BoxTwo {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 width: 200px;
 text-align: center;
 }
 
 .BoxThree {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 width: 200px;
 text-align: center;
 }
 
 .BoxFour {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 width: 200px;
 text-align: center;
 }
@@ -156,7 +185,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-padding: 48px;
+padding: 64px;
+padding-left: 20%;
+padding-right: 20%;
 }
 
 .testimonial {
