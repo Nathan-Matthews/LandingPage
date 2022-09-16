@@ -1,7 +1,6 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   justify-content: space-between;
@@ -26,10 +25,6 @@ align-self: center;
 max-width: 600px;
 max-height: 600px;
 
-}
-
-.AllBox {
-border: 12px #3882f6;
 }
 
 
@@ -126,21 +121,28 @@ font-weight: bolder;
 color: #1f2937;
 display: flex;
 justify-content: center;
-margin-bottom: 32px;
+margin: 32px;
 }
+
 .AllBox {
 display: flex;
 justify-content: center;
 align-items: center;
+margin: 48px;
 gap: 52px;
 }
 
 .Box {
-width: 200px;
-height: 200px;
+width: 150px;
+height: 150px;
 margin: 10px;
-padding: 10px;
-background-color: #3882f6;
+border-radius: 25px;
+border: 2px solid #3882f6;
+padding: 20px;
+}
+
+.text {
+  max-width: 150px;
 }
 
 .BoxOne {
@@ -148,7 +150,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-width: 200px;
 text-align: center;
 }
 
@@ -157,7 +158,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-width: 200px;
 text-align: center;
 }
 
@@ -166,7 +166,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-width: 200px;
 text-align: center;
 }
 
@@ -175,7 +174,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-width: 200px;
 text-align: center;
 }
 
@@ -201,7 +199,8 @@ font-style: italic;
 .author {
 font-size: 36px;
 font-weight: bolder;
-color:#1f2937
+color:#1f2937;
+align-self: flex-end;
 }
 
 .action {
@@ -249,4 +248,5 @@ justify-content: center;
 min-height: 5%;
 background-color: #1f2937;
 color: #f9faf8;
+padding: 36px;
 }
